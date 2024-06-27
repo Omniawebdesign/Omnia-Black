@@ -1054,7 +1054,7 @@ html {
         /* prevents padding and border from affecting height and width */
         box-sizing: border-box;
         background-color: #010314;
-        
+        border-bottom: 1px solid white;
         position: fixed;
         z-index: 10000;
     }
