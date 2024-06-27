@@ -12,7 +12,7 @@
     overflow: hidden;
     position: relative;
     z-index: 1;
-    background-color: black;
+    background-color: #010314;
   }
   #hero-1617 .cs-container {
     width: 100%;
@@ -255,7 +255,7 @@
 @media only screen and (min-width: 0rem) {
     #quote-560 {
         padding: var(--sectionPadding);
-        background-color: black;
+        background-color: #010314;
     }
     #quote-560 .cs-container {
         width: 100%;
@@ -342,7 +342,7 @@
       font-family: 'Roboto', 'Arial', sans-serif;
       padding: var(--sectionPadding);
       padding-bottom: 0;
-      background-color: #040406;
+      background-color: #010314;
       position: relative;
     }
     #why-957 .cs-container {
@@ -539,7 +539,7 @@
 @media only screen and (min-width: 0rem) {
     #sbs-72 {
         padding: var(--sectionPadding);
-        background-color: #1a1a1a;
+        background-color: #010314;
     }
     #sbs-72 .cs-container {
         width: 100%;
@@ -708,7 +708,7 @@
 @media only screen and (min-width: 0rem) {
     #steps-584 {
       padding: var(--sectionPadding);
-      background-color: black;
+      background-color: #010314;
     }
     #steps-584 .cs-container {
       width: 100%;
