@@ -1029,6 +1029,7 @@
     /* centers the button */
     text-align: center;
     padding: var(--sectionPadding);
+background-color: #010314;
   }
   #services-344 .cs-container {
     width: 100%;
@@ -1113,7 +1114,7 @@
     line-height: 1.2em;
     margin: 0;
     margin-bottom: 0.75rem;
-    color: var(--headerColor);
+    color: white;
     transition: color 0.3s;
   }
   #services-344 .cs-item-text {
@@ -1121,7 +1122,7 @@
     text-align: center;
     line-height: 1.5em;
     margin: 0;
-    color: var(--bodyTextColor);
+    color:white;
     transition: color 0.3s;
   }
   #services-344 .cs-button-solid {
