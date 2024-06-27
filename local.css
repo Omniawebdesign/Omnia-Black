@@ -12,6 +12,7 @@
     overflow: hidden;
     position: relative;
     z-index: 1;
+    background-color: black;
   }
   #hero-1617 .cs-container {
     width: 100%;
