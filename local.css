@@ -1236,7 +1236,7 @@ background-color: #010314;
         margin: 0;
         /* 24px - 32px */
         padding: clamp(1.5rem, 3vw, 2rem);
-        background-color: #fff;
+        background-color: #010314;
         border: 1px solid #e8e8e8;
         border-radius: 1rem;
         /* prevents padding and border from affecting height and width */
