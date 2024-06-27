@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Swap our for actual link-->
+    <link rel="canonical" href="https://www.company.com">
+
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!--Social Media Display-->
+    <meta property="og:title" content=""/>
+    <meta property="og:description" content=""/>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content=""/>
+    <meta property="og:image" content="/images/social.jpg"/>
+    <meta property="og:image:secure_url" content="/images/social.jpg"/>
+
+    <!--Favicons-->
+    <!--Use https://realfavicongenerator.net/ to generate and download your favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v1">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <!-- Preload -->
+    <link rel="preload" as="image" href="/images/landing-m.webp">
+    <link rel="preload" as="font" type="font/woff2" href="fonts/roboto-v29-latin-regular.woff2" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="fonts/roboto-v29-latin-700.woff2" crossorigin>
+
+
+    <link rel="stylesheet" href="critical.css"> <!-- Only above the fold css-->
+    <link rel="stylesheet" href="root.css">
+    <link rel="stylesheet" href="/css/dark.css">
+
+
+    <link href="normalize.css" rel="stylesheet">
+      <link href="style.css" rel="stylesheet">
+
+    <!--Defer loading the whole page css-->
+    <link rel="stylesheet" href="local.css" media="print" onload="this.media='all'; this.onload=null;">
+
+    <!--If the user has javascript disbaled, load this stylesheet-->
+    <noscript>
+        <link rel="stylesheet" href="local.css">
+    </noscript>
+
+    <title>Company Name | What They Do | Town and State</title>
+</head>
+<body>
+    <!--Screen reader skip main nav-->
+    <a class="skip" aria-label="skip to main content" href="#main">Click To Skip To Main Content</a>
+
+  <!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+
+<header id="cs-navigation">
+    <div class="cs-container">
+        <!--Nav Logo-->
+        <a href="" class="cs-logo" aria-label="back to home">
+            <img src="omnialogo7.png" alt="logo" width="210" height="29" aria-hidden="true" decoding="async">
+        </a>
+        <!--Navigation List-->
+        <nav class="cs-nav" role="navigation">
+            <!--Mobile Nav Toggle-->
+            <button class="cs-toggle" aria-label="mobile menu toggle">
+                <div class="cs-box" aria-hidden="true">
+                    <span class="cs-line cs-line1" aria-hidden="true"></span>
+                    <span class="cs-line cs-line2" aria-hidden="true"></span>
+                    <span class="cs-line cs-line3" aria-hidden="true"></span>
+                </div>
+            </button>
+            <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+            <div class="cs-ul-wrapper">
+                <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link cs-active">
+                            Accueil
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link">
+                            A propos
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link">
+                            Services
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link">
+                            FAQ
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <a href="" class="cs-button-solid cs-nav-button">Contact</a>
+       
+    </div>
+</header>
+                           
+
+    <main id="main">
+
+
+     
+
+
+
+
+        <!-- ============================================ -->
+        <!--                    LANDING                   -->
+        <!-- ============================================ -->
+    
+    <!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero-1617">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">
+                <svg class="cs-chevron" width="49" height="15" viewBox="0 0 49 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g opacity="0.7">
+                    <path d="M0.621948 7.49889L6.40262 15L10.343 15L4.56231 7.49889L10.343 -4.2492e-07L6.40262 -2.52681e-07L0.621948 7.49889Z" fill="var(--chevronColor)"/>
+                    <path d="M7.62195 7.49889L13.4026 15L17.343 15L11.5623 7.49889L17.343 -4.2492e-07L13.4026 -2.52681e-07L7.62195 7.49889Z" fill="var(--chevronColor)"/>
+                    <path d="M14.7789 7.49889L20.5596 15L24.5 15L18.7193 7.49889L24.5 -4.2492e-07L20.5596 -2.52681e-07L14.7789 7.49889Z" fill="var(--chevronColor)"/>
+                    <path d="M22.7789 7.49889L28.5596 15L32.5 15L26.7193 7.49889L32.5 -4.2492e-07L28.5596 -2.52681e-07L22.7789 7.49889Z" fill="var(--chevronColor)"/>
+                    <path d="M30.7789 7.49889L36.5596 15L40.5 15L34.7193 7.49889L40.5 -4.2492e-07L36.5596 -2.52681e-07L30.7789 7.49889Z" fill="var(--chevronColor)"/>
+                    <path d="M38.7789 7.49889L44.5596 15L48.5 15L42.7193 7.49889L48.5 -4.2492e-07L44.5596 -2.52681e-07L38.7789 7.49889Z" fill="var(--chevronColor)"/>
+                    </g>
+                </svg>
+                Libérez le potentiel de votre entreprise
+                <svg class="cs-chevron" width="49" height="15" viewBox="0 0 49 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g opacity="0.7">
+                    <path d="M48.3781 7.49889L42.5974 15L38.657 15L44.4377 7.49889L38.657 -4.2492e-07L42.5974 -2.52681e-07L48.3781 7.49889Z" fill="var(--chevronColor)"/>
+                    <path d="M41.3781 7.49889L35.5974 15L31.657 15L37.4377 7.49889L31.657 -4.2492e-07L35.5974 -2.52681e-07L41.3781 7.49889Z" fill="var(--chevronColor)"/>
+                    <path d="M34.2211 7.49889L28.4404 15L24.5 15L30.2807 7.49889L24.5 -4.2492e-07L28.4404 -2.52681e-07L34.2211 7.49889Z" fill="var(--chevronColor)"/>
+                    <path d="M26.2211 7.49889L20.4404 15L16.5 15L22.2807 7.49889L16.5 -4.2492e-07L20.4404 -2.52681e-07L26.2211 7.49889Z" fill="var(--chevronColor)"/>
+                    <path d="M18.2211 7.49889L12.4404 15L8.50004 15L14.2807 7.49889L8.50004 -4.2492e-07L12.4404 -2.52681e-07L18.2211 7.49889Z" fill="var(--chevronColor)"/>
+                    <path d="M10.2211 7.49889L4.4404 15L0.500041 15L6.28071 7.49889L0.500042 -4.2492e-07L4.4404 -2.52681e-07L10.2211 7.49889Z" fill="var(--chevronColor)"/>
+                    </g>
+                </svg>
+            </span>
+            <h1 class="cs-title">
+                Scaler votre business n'a jamais été aussi simple</h1>
+            <a href="" class="cs-button-solid">Commencer</a>
+            <!--Bottom Corners-->
+            <div class="cs-corners" aria-hidden="true"></div>
+        </div>
+    </div>
+
+    <!-- Background Image -->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting-2-m.jpeg">
+        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting-2.jpeg">
+        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting-2.jpeg" alt="meeting" width="1920" height="1200" aria-hidden="true">
+    </picture>
+</section>
+                                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ============================================ -->
+<!--                   Quote                      -->
+<!-- ============================================ -->
+
+<section id="quote-560">
+    <div class="cs-container">
+        <div class="cs-content">
+            
+            <p class="cs-quote">
+                Chez Omnia, nous aidons les petites entreprises à se développer efficacement grâce à une solution tout-en-un.
+
+                <br>
+                <br>
+                En combinant l'utilisation d'un site internet performant, une stratégie publicitaire efficace et un référenceent optimal, nous aidons les entreprises à développer leurs chiffres d'affaire immédiatement tout en assurant une pérénité sur le long terme.  
+            </p>     
+            <span class="cs-name">Bryan Maté</span>
+        </div>
+                
+            </div>
+
+</section>
+                                
+
+
+
+
+       
+
+
+
+
+
+<!-- ============================================ -->
+<!--               Why Choose Us                  -->
+<!-- ============================================ -->
+
+<section id="why-957">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Zone d'intervention</span>
+            <h2 class="cs-title">Nous vous Aidons à Propulser votre Business</h2>
+            <p>Chez Omnia, nous aidons les coachs, les consultants et les formateurs à scaler leur business. Êtes-vous prêt à passer au niveau supérieur ?
+                </p>
+            <a href="tel:07 67 46 32 52" class="cs-button-solid">Nous Contacter</a>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <img class="cs-icon" src="rdv2.png" aria-hidden="true" loading="lazy" decoding="async" alt="icon" width="40" height="40">
+                <div class="cs-flex">
+                    <h3 class="cs-h3">Fondation</h3>
+                    <p class="cs-item-text">
+                        Création de vos fondations : Nous vous concotons un site internet optimisé ou le référencement et la convertion. Ce dernier vous permettra d'établir votre présence et de vous différencier de vos concurrent grâce à une stratégie basé sur votre USP (unique selling point)
+                    </p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" src="rdv2.png" aria-hidden="true" loading="lazy" decoding="async" alt="icon" width="40" height="40">
+                <div class="cs-flex">
+                    <h3 class="cs-h3">Acquisition</h3>
+                    <p class="cs-item-text">
+                        Nous vous aidons à acquérir de nouveaux clients grâce à une stratégié de paid search minutieusement élaborée.                    </p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" src="rdv2.png" aria-hidden="true" loading="lazy" decoding="async" alt="icon" width="40" height="40">
+                <div class="cs-flex">
+                    <h3 class="cs-h3">Pérénité</h3>
+                    <p class="cs-item-text">
+                        Une fois les deux étapes passés, la stratégie de référencement précédement mise en place portera ces fruits, votre business sera en position privilégie permettant ainsi de réduire le budget publicitaire                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+   
+</section>
+                
+
+
+
+
+                
+<!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
+
+<section id="sbs-72">
+    <div class="cs-container">
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="bryan.jpg">
+            <source media="(min-width: 601px)" srcset="bryan.jpg">
+            <img loading="lazy" decoding="async" src="bryan.jpg" alt="body builder" width="500" height="552" aria-hidden="true">
+        </picture>
+        <div class="cs-content">
+          
+            <h2 class="cs-title">Qui est derrière Omnia</h2>
+            <p class="cs-text">
+                Bryan Maté s'est imposé comme une référence dans le développement de business locales. 
+                <br>
+                <br>
+
+                Durant ces 3 dernières années, il étudié les mécanismes indispensables de croissance d'entreprise.
+                <br>
+                <br>
+                Fort de cette expertise, il a accompagné des dizaines d'entreprises de coaching, consulting, services high-ticket à développer leur croissance.
+                <br>
+                <br>
+                Omnia vise à être l'écosystème de croissance numéro 1 pour les entreprises locales et d'artisanales.
+                <br>
+                <br>
+                Omnia conçoit des solutions robustes et performantes englobant, le developpement de site internet à fort taux de convertion, la génération de prospects grâce à du paid search, et une stratégie seo permettant d'assurer l'autonomie et la pérénité des entreprises.                <br>
+                <br>
+                Cet écosystème permet aux entreprises de pleinement réaliser leur potentiel, de scaler rapidement et de se focaliser sur leur véritable zone d'excellence.            </p>
+            <a class="cs-button-solid" aria-label="learn more about our programs" href="">Learn More</a>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- ============================================ -->
+<!--                   Steps                      -->
+<!-- ============================================ -->
+
+<section id="steps-584">
+    <div class="cs-container">
+        <div class="cs-content">
+            
+            <h2 class="cs-title">Processus</h2>
+            <span class="cs-topper">CHEZ EXPONENSIA, VOUS NE SEREZ PLUS SEUL, NOUS METTONS NOS CONNAISSANCES ET NOTRE EXPERTISE POUR VOUS AIDER À PASSER AU NIVEAU SUPÉRIEUR.</span>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <h3 class="cs-h3">Préparation</h3>
+                <p class="cs-item-text">
+                    Mise en place de la stratégie concernant la création de votre site, de la campagne marketting et d'un SEO adapté
+                </p>
+                <span class="cs-number">1</span>
+            </li>
+            <li class="cs-item">
+                <h3 class="cs-h3">Présence</h3>
+                <p class="cs-item-text">
+                    Mise en place de votre présence web (Site internet, googlemybusiness)
+                </p>
+                <span class="cs-number">2</span>
+            </li>
+            <li class="cs-item">
+                <h3 class="cs-h3">Traffic</h3>
+                <p class="cs-item-text">
+                    Optimisation de votre présence web via une campagne publicitaire ciblée
+                </p>
+                <span class="cs-number">3</span>
+            </li>
+            <li class="cs-item">
+                <h3 class="cs-h3">Suivi</h3>
+                <p class="cs-item-text">
+                    Compte rendu chaque semaine et affinage de la stratégie en fonction de vos résultats
+                </p>
+                <span class="cs-number">4</span>
+            </li>
+        </ul>
+    </div>
+</section>
+                                
+                                
+
+
+
+
+
+
+
+
+<!-- ============================================ -->
+<!--                    FAQ                       -->
+<!-- ============================================ -->
+
+<section id="faq-326">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">FAQ’s</span>
+            <h2 class="cs-title">Frequently Asked Questions</h2>
+        </div>
+        <div class="cs-flex-group">
+            <ul class="cs-faq-group">
+                <!-- Active class added as default -->
+                <li class="cs-faq-item active">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            What is the difference between a lawyer and an attorney?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        In the U.S., the terms lawyer and attorney are often used interchangeably. A lawyer provides legal services such as giving legal advice, writing legal documents and providing policy counsel to governments. An attorney, on top of these things also holds a state or regional license to represent clients in a law court.
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            How do I get started?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            I'm New to the United States and Need an Attorney. Can I Hire a Stitch Lawyer Instead?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            What Do Lawyers Do? Do They Spend Most of Their Time Arguing Cases in Court?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            May a Lawyer Who Is Licensed in One State Practice Law in Another State?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+                                
+
+                         
+<!-- ============================================ -->
+<!--             Side By Side Reverse             -->
+<!-- ============================================ -->
+
+<section id="RPsbsr-74">
+    <div class="cs-container">
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="im4.png">
+            <source media="(min-width: 601px)" srcset="im4.png">
+            <img loading="lazy" decoding="async" src="im4.png" alt="body builder" width="500" height="552" aria-hidden="true">
+        </picture>
+        <div class="cs-content">
+          <span class="cs-topper">UN SITE WEB A VOTRE IMAGE</span>
+            <h2 class="cs-title">Web Design</h2>
+            <p class="cs-text">
+                Votre entreprise est unique ! Votre site web sera réalisé sur-mesure pour mettre en avant vos spécificités afin de vous demarquer de la concurrence.
+            </p>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+ <!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
+
+<section id="RPsbs-74">
+    <div class="cs-container">
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="rocket.png">
+            <source media="(min-width: 601px)" srcset="rocket.png">
+            <img loading="lazy" decoding="async" src="rocket.png" alt="body builder" width="500" height="552" aria-hidden="true">
+        </picture>
+        <div class="cs-content">
+            <span class="cs-topper">PREMIERE POSITION GOOGLE </span>
+            <h2 class="cs-title">Marketing</h2>
+            <p class="cs-text">
+Grace à une campagne de marketting google ciblé, vous serez propulsé en première position google dans votre ville dès le lancement de notre campagne.            </p>
+            
+        </div>
+    </div>
+</section>
+
+                
+
+
+
+
+
+                         
+<!-- ============================================ -->
+<!--             Side By Side Reverse             -->
+<!-- ============================================ -->
+
+<section id="RPsbsr-74" class="class2">
+    <div class="cs-container">
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="ca2.png">
+            <source media="(min-width: 601px)" srcset="ca2.png">
+            <img loading="lazy" decoding="async" src="ca2.png" alt="body builder" width="500" height="552" aria-hidden="true">
+        </picture>
+        <div class="cs-content">
+          <span class="cs-topper">CHIFFRE D'AFFAIRE BOOSTE</span>
+            <h2 class="cs-title">Convertion</h2>
+            <p class="cs-text">
+                La création d'un site internet optimisé couplé à une campagne publicitaire ciblée vous permettra de constater des résultats positifs sur votre chiffre d'affaire dès le premier mois
+            </p>
+            
+        </div>
+    </div>
+</section>
+
+
+
+ <!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
+
+<section id="RPsbs-74" class="class3">
+    <div class="cs-container">
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="rocket.png">
+            <source media="(min-width: 601px)" srcset="rocket.png">
+            <img loading="lazy" decoding="async" src="rocket.png" alt="body builder" width="500" height="552" aria-hidden="true">
+        </picture>
+        <div class="cs-content">
+            <span class="cs-topper">SASTIFAIT OU REMBOURSE </span>
+            <h2 class="cs-title">Garantie</h2>
+            <p class="cs-text">
+Votre réussite est notre priorité absolue ! Si nos stratégies n'optimisent pas vos résultats, nous vous remboursons sans conditions !           </p>
+            
+        </div>
+    </div>
+</section>
+
+    
+
+
+
+
+
+        <!-- ============================================ -->
+        <!--             Final Call to Action             -->
+        <!-- ============================================ -->
+
+
+
+
+
+    </div>
+</section>
+
+
+<!-- ============================================ -->
+<!--                   Pricing                    -->
+<!-- ============================================ -->
+
+<section id="pricing-1690">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Des Prix Justes
+            </span>
+            <h2 class="cs-title">Choisissez une formule ci-dessous</h2>
+           
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <span class="cs-package">Design</span>
+                <ul class="cs-ul">
+                    <li class="cs-li">
+                        All available starter feature
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async"
+                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/enterprise-tick.svg"
+                                alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li">
+                        Home service 24/7
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async"
+                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/enterprise-tick.svg"
+                                alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li">
+                        Customer agent service
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async"
+                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/enterprise-tick.svg"
+                                alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li">
+                        Professional Service
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async"
+                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/enterprise-tick.svg"
+                                alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li cs-disabled">
+                        2 dedicated mechanic
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async"
+                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/enterprise-tick.svg"
+                                alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li cs-disabled">
+                        Remote Service mechanic
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async"
+                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/enterprise-tick.svg"
+                                alt="checkmark" width="18" height="18">
+                    </li>
+                </ul>
+                <span class="cs-price">49€
+                    <span class="cs-duration">Par Mois</span>
+                </span>
+                <a href="" class="cs-link">
+                    <span class="cs-link-text">Commencer</span>
+                    <img class="cs-arrow" loading="lazy" decoding="async"
+                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/enterprise-arrow-right.svg"
+                            alt="icon" width="20" height="20" aria-hidden="true" />
+                </a>
+            </li>
+            <li class="cs-item cs-popular">
+                <span class="cs-package">Business +</span>
+                <ul class="cs-ul">
+                    <li class="cs-li">
+                        Création du site
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async"
+                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/enterprise-tick.svg"
+                                alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li">
+                        Création de la campagne
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async"
+                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/enterprise-tick.svg"
+                                alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li">
+                        Support 24/7
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async"
+                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/enterprise-tick.svg"
+                                alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li">
+                        Contrôle journalier des performances
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async"
+                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/enterprise-tick.svg"
+                                alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li">
+                        Mises à Jour régulières de votre campagne
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async"
+                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/enterprise-tick.svg"
+                                alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li cs-disabled">
+                        Frais d'hebergement inclus
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async"
+                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/enterprise-tick.svg"
+                                alt="checkmark" width="18" height="18">
+                    </li>
+                </ul>
+                <span class="cs-price">149€
+                    <span class="cs-duration">Par Mois</span>
+                </span>
+                <a href="" class="cs-link">
+                    <span class="cs-link-text">Commencer</span>
+                    <img class="cs-arrow" loading="lazy" decoding="async"
+                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/enterprise-arrow-right.svg"
+                            alt="icon" width="20" height="20" aria-hidden="true" />
+                </a>
+            </li>
+            <li class="cs-item">
+                <span class="cs-package">Visibilité</span>
+                <ul class="cs-ul">
+                    <li class="cs-li">
+                        All available starter feature
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async"
+                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/enterprise-tick.svg"
+                                alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li">
+                        Home service 24/7
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async"
+                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/enterprise-tick.svg"
+                                alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li">
+                        Customer agent service
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async"
+                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/enterprise-tick.svg"
+                                alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li">
+                        Professional Service
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async"
+                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/enterprise-tick.svg"
+                                alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li">
+                        2 dedicated mechanic
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async"
+                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/enterprise-tick.svg"
+                                alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li">
+                        Remote Service mechanic
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async"
+                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/enterprise-tick.svg"
+                                alt="checkmark" width="18" height="18">
+                    </li>
+                </ul>
+                <span class="cs-price">99€
+                    <span class="cs-duration">Par Mois</span>
+                </span>
+                <a href="" class="cs-link">
+                    <span class="cs-link-text">Commencer</span>
+                    <img class="cs-arrow" loading="lazy" decoding="async"
+                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/enterprise-arrow-right.svg"
+                            alt="icon" width="20" height="20" aria-hidden="true" />
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
+                                
+                                
+
+        <!-- ============================================ -->
+<!--                     CTA                      -->
+<!-- ============================================ -->
+
+<section id="cta-51">
+    <div class="cs-container">
+        <div class="cs-content">
+           
+            <h2 class="cs-title">Prêt A Booster Votre Entreprise ?</h2>
+            <p class="cs-text">
+                
+            </p>
+            <a href="" class="cs-button-solid">Contactez-Nous</a>
+        </div>
+    </div>
+    <!-- Background Image-->
+    
+</section>
+
+
+
+
+
+
+                                
+                                
+    </main>
+
+    
+
+    <!-- ============================================ -->
+<!--                  Footer                      -->
+<!-- ============================================ -->
+
+<section id="footer-1147">
+    <div class="cs-container">
+        
+        <div class="cs-bottom">
+            <!--Social-->
+            <ul class="cs-social">
+                <li class="cs-social-li">
+                    <a href="" class="cs-social-link" aria-label="facebook" target="_blank" rel="noopener">
+                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/facebook-white.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
+                    </a>
+                </li>
+                <li class="cs-social-li">
+                    <a href="" class="cs-social-link" aria-label="twitter" target="_blank" rel="noopener">
+                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/twitter-white.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
+                    </a>
+                </li>
+                <li class="cs-social-li">
+                    <a href="" class="cs-social-link" aria-label="instagram" target="_blank" rel="noopener">
+                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/instagram-transparent.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
+                    </a>
+                </li>
+                <li class="cs-social-li">
+                    <a href="" class="cs-social-link" aria-label="twitter" target="_blank" rel="noopener">
+                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/youtube-transparent2.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
+                    </a>
+                </li>
+            </ul>
+            <span class="cs-copyright">
+                © Copyright 2023 - <a href="" class="cs-copyright-link">Omnia Web Designs</a>
+            </span>
+        </div>
+    </div>
+    <!--Background-->
+   
+</section>
+                                
+
+
+    <script defer src="/nav.js"></script>
+    <script defer src="/dark.js"></script>
+    <!--
+        This script adds a class to the body after scrolling 100px
+        and we used these body.scroll styles to create some on scroll 
+        animations with the navbar
+    -->
+    <script defer>
+        document.addEventListener('scroll', (e) => { 
+            const scroll = document.documentElement.scrollTop;
+            if(scroll >= 0){
+        document.querySelector('body').classList.add('scroll')
+            } else {
+            document.querySelector('body').classList.remove('scroll')
+            }
+        });
+    </script>
+
+<script>
+    const faqItems = Array.from(document.querySelectorAll('.cs-faq-item'));
+        for (const item of faqItems) {
+            const onClick = () => {
+            item.classList.toggle('active')
+        }
+        item.addEventListener('click', onClick)
+        }
+                                
+</script>
+
+
+
+<script>
+
+// add classes for mobile navigation toggling
+    var CSbody = document.querySelector("body");
+    const CSnavbarMenu = document.querySelector("#cs-navigation");
+    const CShamburgerMenu = document.querySelector("#cs-navigation .cs-toggle");
+
+    CShamburgerMenu.addEventListener('click', function() {
+        CShamburgerMenu.classList.toggle("cs-active");
+        CSnavbarMenu.classList.toggle("cs-active");
+        CSbody.classList.toggle("cs-open");
+        // run the function to check the aria-expanded value
+        ariaExpanded();
+    });
+
+    // checks the value of aria expanded on the cs-ul and changes it accordingly whether it is expanded or not 
+    function ariaExpanded() {
+        const csUL = document.querySelector('#cs-expanded');
+        const csExpanded = csUL.getAttribute('aria-expanded');
+
+        if (csExpanded === 'false') {
+            csUL.setAttribute('aria-expanded', 'true');
+        } else {
+            csUL.setAttribute('aria-expanded', 'false');
+        }
+    }
+
+    // mobile nav toggle code
+    const dropDowns = Array.from(document.querySelectorAll('#cs-navigation .cs-dropdown'));
+        for (const item of dropDowns) {
+            const onClick = () => {
+            item.classList.toggle('cs-active')
+        }
+        item.addEventListener('click', onClick)
+        }
+                                
+       </script>
+
+
+
+
+
+
+
+
+
+
+<script src="object-fit-videos.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
