@@ -821,6 +821,7 @@
 @media only screen and (min-width: 0rem) {
   #faq-326 {
       padding: var(--sectionPadding);
+    background-color: #010314;
   }
   #faq-326 .cs-container {
       width: 100%;
