@@ -831,6 +831,7 @@
       align-items: center;
       /* 48px - 64px */
       gap: clamp(3rem, 6vw, 4rem);
+    background-color: #010314;
   }
   #faq-326 .cs-content {
       /* set text align to left if content needs to be left aligned */
@@ -939,6 +940,7 @@
   #faq-326 .cs-button-text {
       width: 80%;
       display: block;
+    color: white;
   }
   #faq-326 .cs-item-p {
       /* 14px - 16px */
@@ -950,7 +952,7 @@
       /* 16px - 24px */
       padding: 0 clamp(1rem, 2vw, 1.5rem);
       opacity: 0;
-      color: var(--bodyTextColor);
+      color: white;
       /* clips the text so it doesn't show up */
       overflow: hidden;
       transition:
