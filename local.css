@@ -1696,7 +1696,7 @@ background-color: #010314;
   #cta-262 {
     padding: var(--sectionPadding);
     background-color:#010314;
-    border: 1px solid white;
+    
   }
   #cta-262 .cs-container {
     width: 100%;
@@ -1717,6 +1717,7 @@ background-color: #010314;
     z-index: 1;
     /* prevents padding from adding to height and width */
     box-sizing: border-box;
+    border: 1px solid white;
   }
   #cta-262 .cs-background {
     width: 100%;
