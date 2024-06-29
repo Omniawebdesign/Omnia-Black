@@ -864,6 +864,7 @@
       overflow: hidden;
       border-radius: 0.75rem;
       transition: border-bottom 0.3s;
+    border:1px solid white;
     
   }
   #faq-326 .cs-faq-item.active .cs-button {
