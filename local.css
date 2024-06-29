@@ -859,11 +859,12 @@
   #faq-326 .cs-faq-item {
       list-style: none;
       width: 100%;
-      background-color: #f7f7f7;
+      background-color: #010314;
       /* clips all corners of the button that overlap the rounded border */
       overflow: hidden;
       border-radius: 0.75rem;
       transition: border-bottom 0.3s;
+    
   }
   #faq-326 .cs-faq-item.active .cs-button {
       background-color: var(--primary);
@@ -891,7 +892,7 @@
       font-weight: bold;
       /* 16px - 20px */
       padding: clamp(1rem, 1.3vw, 1.25rem);
-      background-color: #f7f7f7;
+      background-color: #010314;
       border: none;
       color: var(--headerColor);
       display: block;
