@@ -2147,7 +2147,7 @@ background-color: #010314;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5em;
-    color: var(--bodyTextColor);
+    color: white;
   }
   #pricing-1690 .cs-link {
     font-size: 1rem;
@@ -2168,7 +2168,7 @@ background-color: #010314;
   }
   #pricing-1690 .cs-link-text {
     width: fit-content;
-    color: #111926;
+    color: white;
   }
   #pricing-1690 .cs-arrow {
     width: 1.25rem;
