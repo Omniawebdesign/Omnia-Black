@@ -2138,7 +2138,7 @@ background-color: #010314;
     margin-top: auto;
     /* 48px - 64px */
     padding-top: clamp(3rem, 6vw, 4rem);
-    color: #111926;
+    color: white;
     display: flex;
     align-items: baseline;
     gap: 0.5rem;
