@@ -2021,6 +2021,7 @@ background-color: #010314;
 @media only screen and (min-width: 0rem) {
   #pricing-1690 {
     padding: var(--sectionPadding);
+    background-color: #010314;
   }
   #pricing-1690 .cs-container {
     width: 100%;
@@ -2076,7 +2077,7 @@ background-color: #010314;
     align-items: stretch;
   }
   #pricing-1690 .cs-item.cs-popular {
-    background-color: #111926;
+    background-color: #B39870;
   }
   #pricing-1690 .cs-item.cs-popular .cs-package,
   #pricing-1690 .cs-item.cs-popular .cs-li,
