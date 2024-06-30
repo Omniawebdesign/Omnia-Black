@@ -2071,10 +2071,11 @@ background-color: #010314;
     /* 24px - 32px top & bottom */
     /* 16px - 32px left & right */
     padding: clamp(1.5rem, 3vw, 2rem) clamp(1rem, 3vw, 2rem);
-    background-color: #f7f7f7;
+    background-color:#010314;
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    border: 1px solid white;
   }
   #pricing-1690 .cs-item.cs-popular {
     background-color: #B39870;
@@ -2096,7 +2097,7 @@ background-color: #010314;
     font-weight: 700;
     line-height: 1.2em;
     margin-bottom: 1rem;
-    color: #111926;
+    color: white;
   }
   #pricing-1690 .cs-ul {
     margin: 0;
@@ -2114,7 +2115,7 @@ background-color: #010314;
     width: 100%;
     margin: 0;
     padding: 0;
-    color: black;
+    color: white;
     display: flex;
     justify-content: space-between;
     /* push everything to the top so if the li goes to two lines the icon stays at the top */
