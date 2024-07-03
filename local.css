@@ -2193,6 +2193,16 @@ background-color: #010314;
     flex-wrap: nowrap;
   }
 }
+
+
+.divider{
+  background-image: linear-gradient(to right, #000, #a8a8a8 50%, #000);
+    width: 100%;
+    max-width: 80rem;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
                               
 
 
