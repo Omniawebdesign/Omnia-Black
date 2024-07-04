@@ -1889,7 +1889,7 @@ background-color: #010314;
     /* set text align to left if content needs to be left aligned */
     text-align: center;
     width: 100%;
-    max-width: 39.375rem;
+    
     display: flex;
     flex-direction: column;
     /* centers content horizontally, set to flex-start to left align */
