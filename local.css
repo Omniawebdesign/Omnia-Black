@@ -1449,7 +1449,7 @@ background-color: #010314;
     }
     #hero-1350 .cs-title {
         /* 39px - 61px */
-        font-size: clamp(3.4375rem, 6.4vw, 5.8125rem);
+        font-size: clamp(2.4375rem, 6.4vw, 5.8125rem);
         font-weight: 700;
         line-height: 1.2em;
         text-align: inherit;
