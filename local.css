@@ -1821,7 +1821,7 @@ background-color: #010314;
     /* 20px - 25px */
     font-size: clamp(1.25rem, 2.4vw, 1.5625rem);
     font-weight: bold;
-    color: var(--primaryLight);
+    color: white;
     display: block;
   }
   #cta-262 .cs-p {
