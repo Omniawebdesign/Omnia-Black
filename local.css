@@ -1518,7 +1518,7 @@ background-color: #010314;
     }
     #hero-1350 .cs-bubbles1:before {
         /* white border bubble */
-        content: "";
+        
         width: 38.875em;
         height: 38.875em;
         background: transparent;
@@ -1537,7 +1537,7 @@ background-color: #010314;
     }
     #hero-1350 .cs-bubbles1:after {
         /* orange bubble */
-        content: "";
+        
         width: 34.125em;
         height: 34.125em;
         background: var(--primary);
@@ -1564,7 +1564,7 @@ background-color: #010314;
     }
     #hero-1350 .cs-bubbles2:before {
         /* white border bubble */
-        content: "";
+        
         width: 20.625rem;
         height: 20.625rem;
         background: transparent;
@@ -1583,7 +1583,7 @@ background-color: #010314;
     }
     #hero-1350 .cs-bubbles2:after {
         /* orange bubble */
-        content: "";
+        
         width: 16.25rem;
         height: 16.25rem;
         background: var(--primary);
