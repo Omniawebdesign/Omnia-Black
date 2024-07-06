@@ -1389,6 +1389,7 @@ background-color: #010314;
         overflow: hidden;
         position: relative;
         z-index: 1;
+      background:#010314;
     }
     #hero-1350:before {
         /* Overlay */
