@@ -699,7 +699,7 @@
         padding: var(--sectionPadding);
         position: relative;
         z-index: 1;
-        background: black;
+        background: #010314;
         padding-bottom: 2em;
     }
     #footer-1147 .cs-container {
