@@ -104,7 +104,7 @@
     font-weight: 700;
     /* 16px - 20px */
     margin-bottom: clamp(1rem, 1em, 1.25rem);
-    color: var(--headerColor);
+    color: white;
     display: flex;
     justify-content: center;
     align-items: flex-start;
