@@ -35,7 +35,7 @@
     font-weight: 700;
     letter-spacing: 0.1em;
     margin: 0 0 1rem 0;
-    color: #b4b2c7;
+    color: white;
     display: block;
   }
   #cs-contact-490 .cs-link {
@@ -46,7 +46,7 @@
     font-weight: 700;
     /* 16px - 32px */
     margin: 0 0 clamp(1rem, 2.5vw, 2rem);
-    color: var(--headerColor);
+    color: white;
     display: block;
   }
   #cs-contact-490 .cs-link:hover {
