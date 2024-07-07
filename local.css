@@ -2078,6 +2078,7 @@ background-color: #010314;
     flex-direction: column;
     align-items: stretch;
     border: 1px solid white;
+    border-radius: 1rem;
   }
   #pricing-1690 .cs-item.cs-popular {
     background-color: #B39870;
