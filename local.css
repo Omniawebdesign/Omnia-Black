@@ -569,6 +569,7 @@
     }
     #sbs-72 .cs-text:last-of-type {
         margin-bottom: 2rem;
+      font-family:'Roboto', Arial, sans-serif;
     }
     #sbs-72 .cs-title {
         color: var(--bodyTextColorWhite);
