@@ -1450,3 +1450,7 @@ html {
 #cs-navigation .cs-li-link.cs-active{
     font-family: 'Roboto', Arial, sans-serif;
 }
+
+#cs-navigation .cs-li-link{
+    font-family: 'Roboto', Arial, sans-serif;
+}
