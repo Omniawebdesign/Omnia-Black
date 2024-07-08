@@ -2331,7 +2331,7 @@ background-color: #010314;
     }
     #sbsr-73 .cs-picture:before {
         /* Top right box */
-        content: "";
+        
         width: 10rem;
         /* 202px - 248px */
         height: clamp(12.625rem, 25vw, 15.5rem);
@@ -2347,7 +2347,7 @@ background-color: #010314;
     }
     #sbsr-73 .cs-picture:after {
         /* Bottom left box */
-        content: "";
+        
         width: 10rem;
         /* 202px - 248px */
         height: clamp(12.625rem, 25vw, 15.5rem);
