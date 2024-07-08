@@ -1385,7 +1385,7 @@ background-color: #010314;
         /* 250px - 500px - leaving extra space for the navigation */
         padding: clamp(15.625rem, 35.95vw, 2rem) 1rem 0;
         /* 200px - 250px */
-        padding-bottom: clamp(12.5rem, 16.5vw, 15.625rem);
+        padding-bottom: clamp(5rem, 16.5vw, 5.625rem);
         box-sizing: border-box;
         overflow: hidden;
         position: relative;
