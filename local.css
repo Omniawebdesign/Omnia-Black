@@ -2425,6 +2425,7 @@ background-color: #010314;
     color: var(--bodyTextColorWhite);
     opacity: .8;
     position: relative;
+    font-family: 'Roboto', Arial, sans-serif;
   }
   #sbsr-73 .cs-li:before {
     /* bullet */
