@@ -301,7 +301,7 @@
         font-size: clamp(1rem, 1.7vw, 1.25rem);
         line-height: 1.2em;
         font-weight: 700;
-        text-transform: uppercase;
+        
         margin: 0;
         color: var(--secondary);
         display: block;
