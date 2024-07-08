@@ -2237,6 +2237,7 @@ background-color: #010314;
     padding: var(--sectionPadding);
     position: relative;
     z-index: 1;
+    background:#010314;
   }
   #sbsr-1462 .cs-container {
     width: 100%;
