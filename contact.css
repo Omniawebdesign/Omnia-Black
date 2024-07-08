@@ -7,6 +7,7 @@
   #cs-contact-490 {
     padding: var(--sectionPadding);
     background:#010314;
+    padding-top: 12em;
   }
   #cs-contact-490 .cs-container {
     width: 100%;
