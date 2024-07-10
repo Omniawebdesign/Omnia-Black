@@ -1080,7 +1080,7 @@ background-color: #010314;
     transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
   }
   #services-344 .cs-item:hover {
-    background-color: #fff;
+    background-color: pink;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 50px;
     transform: translateY(-0.4375rem);
   }
