@@ -1484,7 +1484,7 @@ background-color: #010314;
         padding: 0 3rem;
         border-radius: 1.875rem;
         background-color: var(--primary);
-        display: inline-block;
+        display: inline-flex;
         position: relative;
         z-index: 1;
         transition: color 0.3s;
