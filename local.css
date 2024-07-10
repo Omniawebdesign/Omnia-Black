@@ -2472,7 +2472,7 @@ cs-button-box{
         flex-wrap: wrap;
         justify-content: flex-start;
         align-items: center;
-        gap: 1.25rem;
+        gap: 2.25rem;
         margin-top: 0.5em;
 }
 
