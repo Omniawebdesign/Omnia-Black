@@ -1402,12 +1402,13 @@ html {
         position: absolute;
         height: 100%;
         width: 0%;
-        background: #fff;
+        background: #987b51;
         opacity: 1;
         top: 0;
         left: 0;
         z-index: -1;
         transition: width 0.3s;
+        border-radius:50px;
     }
     #cs-navigation .cs-button-solid:hover {
         color: #1a1a1a;
