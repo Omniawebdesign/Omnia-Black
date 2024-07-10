@@ -1503,7 +1503,7 @@ background-color: #010314;
         transition: width 0.3s;
     }
     #hero-1350 .cs-button-solid:hover {
-        color: var(--primary);
+        color: white;
     }
     #hero-1350 .cs-button-solid:hover:before {
         width: 100%;
