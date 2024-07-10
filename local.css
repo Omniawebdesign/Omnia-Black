@@ -1256,9 +1256,8 @@ background-color: #010314;
         justify-content: center;
         position: relative;
         z-index: 1;
-        transition:
-            box-shadow 0.3s,
-            border-color 0.3s;
+       
+      transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
     }
     #services-1131 .cs-item:hover {
         box-shadow: 0px 4px 120px 0px rgba(0, 0, 0, 0.12);
