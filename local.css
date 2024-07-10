@@ -2182,6 +2182,7 @@ background-color: #010314;
     height: auto;
     display: block;
     transition: filter 0.3s, transform 0.3s;
+    filter: grayscale(1) brightness(100);
   }
 }
 /* Tablet - 768px */
